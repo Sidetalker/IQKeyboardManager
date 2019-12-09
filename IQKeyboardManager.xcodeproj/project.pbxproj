@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16885DB3239F0E5100428845 /* IQKeyboardManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AED44E237D413B00DB2593 /* IQKeyboardManager.xcassets */; };
+		16885DB5239F100A00428845 /* IQKeyboardManagerSwift.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16885DB4239F100A00428845 /* IQKeyboardManagerSwift.xcassets */; };
 		4C1D987E1F752A6400F5C2EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1D987D1F752A6400F5C2EA /* UIKit.framework */; };
 		4C1D98801F752A6A00F5C2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1D987F1F752A6A00F5C2EA /* Foundation.framework */; };
 		4C1D98821F752A7600F5C2EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1D98811F752A7600F5C2EA /* CoreGraphics.framework */; };
@@ -59,12 +61,11 @@
 		4CD5973D1D1C5EDD00AB28D3 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD597291D1C5EDD00AB28D3 /* IQToolbar.swift */; };
 		4CD5973E1D1C5EDD00AB28D3 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5972A1D1C5EDD00AB28D3 /* IQUIView+IQKeyboardToolbar.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 		4CD597421D1C60B000AB28D3 /* IQKeyboardManagerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD597411D1C60B000AB28D3 /* IQKeyboardManagerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56AED44F237D413B00DB2593 /* IQKeyboardManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AED44E237D413B00DB2593 /* IQKeyboardManager.xcassets */; };
-		56AED451237D416A00DB2593 /* IQKeyboardManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AED450237D416A00DB2593 /* IQKeyboardManager.xcassets */; };
 		63EECD42205FD69A006B42C2 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EECD41205FD69A006B42C2 /* IQInvocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16885DB4239F100A00428845 /* IQKeyboardManagerSwift.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IQKeyboardManagerSwift.xcassets; sourceTree = "<group>"; };
 		4C1D987D1F752A6400F5C2EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C1D987F1F752A6A00F5C2EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C1D98811F752A7600F5C2EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,7 +99,6 @@
 		4CD2C4D21C5A63A300975A7A /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
 		4CD2C4D31C5A63A300975A7A /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		4CD2C4D41C5A63A300975A7A /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		4CD2C4D71C5A63A300975A7A /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		4CD2C4F71C5A640900975A7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Objective_C_Demo/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		4CD5970C1D1C5EBE00AB28D3 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD597161D1C5EDD00AB28D3 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
@@ -119,7 +119,6 @@
 		4CD597401D1C602500AB28D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Swift_Demo/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		4CD597411D1C60B000AB28D3 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
 		56AED44E237D413B00DB2593 /* IQKeyboardManager.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IQKeyboardManager.xcassets; sourceTree = "<group>"; };
-		56AED450237D416A00DB2593 /* IQKeyboardManager.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IQKeyboardManager.xcassets; sourceTree = "<group>"; };
 		63EECD41205FD69A006B42C2 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,7 +250,6 @@
 		4CD2C4D61C5A63A300975A7A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4CD2C4D71C5A63A300975A7A /* IQKeyboardManager.bundle */,
 				56AED44E237D413B00DB2593 /* IQKeyboardManager.xcassets */,
 			);
 			path = Resources;
@@ -327,7 +325,7 @@
 		4CD5972B1D1C5EDD00AB28D3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				56AED450237D416A00DB2593 /* IQKeyboardManager.xcassets */,
+				16885DB4239F100A00428845 /* IQKeyboardManagerSwift.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -445,7 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AED44F237D413B00DB2593 /* IQKeyboardManager.xcassets in Resources */,
+				16885DB3239F0E5100428845 /* IQKeyboardManager.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AED451237D416A00DB2593 /* IQKeyboardManager.xcassets in Resources */,
+				16885DB5239F100A00428845 /* IQKeyboardManagerSwift.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
